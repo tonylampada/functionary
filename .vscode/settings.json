@@ -6,5 +6,9 @@
         "source.organizeImports": true
     },
   },
-  "isort.args":["--profile", "black"],
+  "isort.args": [
+    "--profile",
+    "black"
+  ],
+  "editor.inlineSuggest.showToolbar": "onHover",
 }

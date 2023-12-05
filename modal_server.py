@@ -16,7 +16,8 @@ from functionary.openai_types import (
 stub = modal.Stub("functionary")
 app = FastAPI(title="Functionary API")
 
-MODEL = "musabgultekin/functionary-7b-v1"
+# MODEL = "musabgultekin/functionary-7b-v1"
+MODEL = "meetkai/functionary-7b-v1.4"
 LOADIN8BIT = False
 
 
